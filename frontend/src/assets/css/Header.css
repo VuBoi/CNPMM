@@ -1,0 +1,201 @@
+.header{
+    padding-bottom: 60px;
+}
+.MuiAppBar-colorPrimary {
+    background-color: #14274e!important;
+}
+/* SearhBox */
+.btn-search {
+    background-color: unset!important;
+}
+
+form button:focus {
+    outline: none!important;
+}
+
+form button {
+    border-radius: 0.3em 0 0 0.3em !important;
+    -webkit-border-radius: 0.3em 0 0 0.3em !important;
+    -moz-border-radius: 0.3em 0 0 0.3em !important;
+    -ms-border-radius: 0.3em 0 0 0.3em !important;
+    -o-border-radius: 0.3em 0 0 0.3em !important;
+    z-index: 99;
+}
+.btn-search .MuiSvgIcon-root{
+    color:white!important;
+}
+form.searchbox{
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2), 0px 2px 2px 0px rgba(0,0,0,0.14), 0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+
+/* MenuDropDown */
+
+.sitename {
+    color: white!important;
+}
+
+#username {
+    padding-top: 11px;
+    color: white!important;
+}
+
+.menu-manage {
+    margin-left: 8px;
+}
+
+.menu-manage__item, .username, .other-link {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu-manage__item a, .username a {
+    padding: 10px 22px;
+}
+
+.other-link a {
+    padding: 10px 36.5px;
+}
+
+.menu-manage__item a:hover, .username a:hover {
+    color: #9088d4 !important;
+}
+
+.menu-manage__item .MuiSvgIcon-root, .username .MuiSvgIcon-root {
+    font-size: 0.8rem !important;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+
+.dropdown-menu.show {
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.2), 0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
+}
+
+.dropdown-menu {
+    padding: unset!important;
+}
+
+.dropdown-item.active, .dropdown-item:active {
+    background-color: #eaeaea!important;
+}
+
+.dropdown-item {
+    padding: .5rem 1.5rem!important;
+}
+
+/*Button SignINOUT*/
+
+.btn-sign {
+    padding-top: 6px;
+    padding-left: 15px;
+    width: 200px;
+}
+
+.btn-sign a button {
+    font-weight: bold!important;
+}
+
+.collapse, .collapsing {
+    background-color: #ffffff;
+}
+
+.collapse .nav-link:hover {
+    background-color: thistle;
+}
+
+.btn-sign-mobile {
+    text-align: center;
+}
+
+.btn-sign-mobile button {
+    margin: 0 2px;
+    font-weight: bold;
+}
+
+.dropdown-toggle::after {
+    vertical-align: unset!important;
+}
+
+/* Drawer */
+
+.wrapper {
+    display: flex;
+    width: 100%;
+}
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    padding-top: 100px;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+    transition: 0.5s;
+    font-size: 11pt;
+    display: none;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    background-color: #fffffff7;
+}
+
+.sidenav.active {
+    left: 0;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+}
+
+.nav-link-dropdown {
+    cursor: pointer;
+}
+
+.sidenav .nav-link {
+    white-space: nowrap;
+    padding-left: 2.5em;
+}
+
+.sidenav .nav-link:hover {
+    background-color: #38bb5b4f;
+}
+
+.collapse, .collapsing {
+    background-color: rgb(208 208 208 / 38%)
+}
+
+.collapse .nav-link:hover {
+    background-color: thistle;
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .sidenav {
+        display: block!important;
+    }
+}
+
+@media (min-width: 768px) {
+    .sidenav {
+        display: none!important;
+    }
+}
+
+.main {
+    min-height: 80vh;
+}
+
+/*  */
+.dropdown-menu.show .dropdown-item{
+    border-radius: .25rem !important;
+    -webkit-border-radius: .25rem !important;
+    -moz-border-radius: .25rem !important;
+    -ms-border-radius: .25rem !important;
+    -o-border-radius: .25rem !important;
+}

@@ -1,0 +1,48 @@
+.warning-box{
+    margin: 0 auto;
+    width: 300px;
+    height: auto;
+    text-align: center;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    background-color: #ffffff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 9999;
+}
+.warning-box img{
+    width: 40px;
+    padding:10px 0px;
+}
+.warning-box__hr{
+    margin:unset!important;
+}
+.warning-box__message{
+    padding-top:10px;
+    margin:0 5px;
+}
+.warning-box__message h4{
+    font-size: 12pt!important;
+    color:#d66707;
+}
+.warning-box__message h5{
+    font-size: 11pt !important;
+    word-break: break-word;
+    padding: 0 10px;
+    margin-bottom: 0.1rem;
+    padding: 5px 0;
+}
+.warning-box__close{
+    width: 100px;
+    margin: 0 auto;
+    padding:10px 0;
+}
+.warning-box .MuiButton-label{
+    font-size: 10pt!important;
+}

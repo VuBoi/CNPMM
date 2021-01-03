@@ -1,0 +1,80 @@
+/* Footer */
+
+.footer {
+  padding: 20px 0;
+  background: #000000;
+  text-align: left;
+  color: #aaa !important;
+  font-family: 'Open Sans', sans-serif !important;
+}
+
+
+.email-footer {
+  color: #aaa !important;
+}
+
+.logo-footer {
+  width: 120px;
+  padding-bottom: 20px;
+  margin-top: -15px;
+}
+
+.logo-slogan {
+  font-weight: 600 !important;
+  font-size: 0.95em !important;
+  line-height: 1.8em !important;
+  overflow-wrap: break-word;
+}
+
+.footer p {
+  font-weight: 600 !important;
+  font-size: 0.95em !important;
+  line-height: 1.5em;
+  overflow-wrap: break-word;
+}
+
+.footer h3 {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1.3em;
+  color: #ffffff;
+  padding-bottom: 15px;
+}
+
+.footer-social .MuiSvgIcon-root {
+  color: #777777 !important;
+  font-size: 1.9em!important;
+}
+
+.footer-social a {
+  margin-right: 20px;
+}
+
+.Social .MuiSvgIcon-root:hover {
+  color: whitesmoke!important;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+
+.footer-contact .MuiSvgIcon-root {
+  color: #777777 !important;
+  font-size: 1.5em!important;
+  margin-right: 8px;
+}
+
+/* Section */
+
+.section {
+  min-height: 100vh;
+  background-color: #ffffff;
+  padding-bottom: 100px;
+  
+}
+@media (max-width: 576px) {
+  .section{
+    padding-bottom: 40%;
+  }
+}

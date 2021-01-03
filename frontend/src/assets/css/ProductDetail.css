@@ -1,0 +1,76 @@
+/* Card Product Detail */
+.product-detail .card-product{
+    border: 2px solid white;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 20px;
+}
+.product-detail .card-product .MuiSvgIcon-root{
+    font-size: 1em;
+}
+.product-detail .card-product .btn-addcart{
+    font-weight: bold;
+    width: 100%;
+    margin-top:15px;
+}
+.product-detail .card-product{
+    font-weight: bold !important;
+}
+.card-product .card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.card-product p{
+    margin-bottom: 0.3em!important;
+}
+/*  */
+
+.product-detail .MuiTab-wrapper{
+    font-weight: bold;
+}
+
+
+.card-product img{
+    margin: 0 auto;
+    display: block;
+}
+
+
+/* Card Product List  */
+.card-product-list{
+    border: 2px solid white;
+    box-shadow: 0px 2px 5px 2px rgba(0, 0, 0, 0.17);
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    margin-bottom: 20px;
+    font-weight: bold !important;
+    min-width: 200px;
+}
+.card-product-list .product-button{
+    display: flex;
+}
+.card-product-list .product-button button{
+    margin-right: 5px;
+}
+.card-product-list .card-title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 11pt;
+}
+.card-product-list .img-fluid {
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+}
+.product-list{
+    padding:0 20px;
+}

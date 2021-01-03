@@ -1,0 +1,24 @@
+/* Features-Box */
+.container{
+    padding-top:25px;
+}
+.box-item{
+    text-align: center;
+}
+.box-item > img{
+    width: 60px;  
+}
+.box-info {
+    margin: 0 auto;
+    margin-top: 10px;
+    white-space: nowrap;
+}
+.box-info__title{
+    margin-bottom: 0!important;
+    white-space: nowrap;
+}
+@media(max-width:992px){
+    .box-item{
+        margin-bottom: 15px;
+    }
+}

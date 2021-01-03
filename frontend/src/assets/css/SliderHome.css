@@ -1,0 +1,36 @@
+/* SliderHome */
+/* .slideshow{
+    padding-top: 70px;
+} */
+div.banner1{
+    background: url('../images/banner1.jpg');
+    background-position: bottom;
+}
+div.banner2{
+    background: url('../images/banner2.jpg');
+    background-position: center;
+}
+div.banner1, div.banner2{
+    height: 450px; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 0 10px #D8D8D8;
+    -webkit-box-shadow: 0 0 10px #D8D8D8;
+    -moz-box-shadow: 0 0 10px #D8D8D8;
+}
+@media (max-width: 992px){
+    div.banner1, div.banner2{
+        height: 400px;
+    }
+}
+@media (max-width: 768px){
+    div.banner1, div.banner2{
+        height: 350px;
+    }
+}
+@media (max-width: 576px){
+    div.banner1, div.banner2{
+        height: 300px;
+    }
+}
+

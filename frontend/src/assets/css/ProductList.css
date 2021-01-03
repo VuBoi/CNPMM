@@ -1,0 +1,12 @@
+.container .products{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.container .maintext h4{
+    color: #14274E;
+}
+.container .maintext p{
+    color: #696868;
+}
