@@ -16,7 +16,7 @@
 * ..Update...
 ### Deployment Heroku: https://webkbooks.herokuapp.com/
 ### Một số thư viện sử dụng:
-* Axio
+* Axios
 * Material UI
 * Bootstrap
 * Redux
