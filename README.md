@@ -1,6 +1,6 @@
 # CNPMM-Ecommerce-Mern-Stack
-# Demo Web Bán Hàng
-# Các chức năng chính:
+## Demo Web Bán Hàng
+## Các chức năng chính:
     + Quản lí người dùng (RD)
     + Quản lí sản phẩm (CRUD)
     + Quản lí loại sản phẩm (CRUD)
@@ -14,8 +14,8 @@
     + Thanh toán Paypal Sandbox
     + Tìm kiếm sản phẩm
     + ..Update...
-# Deployment Heroku: https://webkbooks.herokuapp.com/
-# Một số thư viện sử dụng:
+## Deployment Heroku: https://webkbooks.herokuapp.com/
+## Một số thư viện sử dụng:
     + Axio
     + Material UI
     + Bootstrap
